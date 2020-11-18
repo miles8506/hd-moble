@@ -1,3 +1,6 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 /* body */
 body {
   min-width: 320px;
