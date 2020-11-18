@@ -239,6 +239,7 @@ a {
 .indexwrap_2 .jobdirect .jobdirect_bd .swiper-button-next,
 .indexwrap_2 .jobdirect .jobdirect_bd .swiper-button-prev {
   position: absolute !important;
+  outline: none;
 }
 .indexwrap_2 .jobdirect .jobdirect_bd .swiper-button-next {
   right: 1.12rem !important;
