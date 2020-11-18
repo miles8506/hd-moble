@@ -1,0 +1,341 @@
+body {
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #f2f4f7;
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 37.5px !important;
+    }
+}
+// header
+.indexheader {
+    width: 100%;
+    height: 2.133333rem;
+    text-align: center;
+    line-height: 2.133333rem;
+    font-size: 0.933333rem;
+    border-bottom: 1px solid #eaeaea;
+    color: #1c1c1c;
+    background: #ffffff;
+}
+
+// indexnav
+.indexwrap_1 {
+    width: 100%;
+    height: 19.12rem;
+    margin-bottom: 0.746667rem;
+    background-color: #ffffff;
+    // indexnav
+    .indexnav {
+        width: 100%;
+        height: 13.92rem;
+        ul {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li {
+                flex: 33.333%;
+                &:nth-of-type(-n+3) {
+                    margin-bottom: 1.653333rem;
+                    margin-top: 1.173333rem;
+                }
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 100%;
+                    span[class^="pic_"] {
+                       width: 3.706667rem;
+                       height: 3.706667rem;
+                       margin-bottom: 0.426667rem;
+                       background-size: 3.706667rem auto;
+                    }
+                    .pic_1 {
+                        background: url(../images/icon1.png) no-repeat center center;
+                    }
+                    .pic_2 {
+                        background: url(../images/icon2.png) no-repeat center center;
+                    }
+                    .pic_3 {
+                        background: url(../images/icon3.png) no-repeat center center;
+                    }
+                    .pic_4 {
+                        background: url(../images/icon4.png) no-repeat center center;
+                    }
+                    .pic_5 {
+                        background: url(../images/icon5.png) no-repeat center center;
+                    }
+                    .pic_6 {
+                        background: url(../images/icon5.png) no-repeat center center;
+                    }
+                    .word {
+                        font-size: 0.666667rem;
+                        color: #707070;
+                    }
+                }
+            }
+        }
+    }
+// indexbanner
+    .indexbanner {
+        height: 4.053333rem;
+        margin: 0 0.266667rem 0 0.48rem;
+        a {
+            display: block;
+            height: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+.indexwrap_2 {
+    width: 100%;
+    height: 15.333333rem;
+    margin-top: 0.266667rem;
+    background-color: #ffffff;
+// jobdirect
+    .jobdirect {
+        height: 15.333333rem;
+        .jobdirect_hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 2.693333rem;
+            padding: 0 0.64rem 0  2.08rem;
+            .title {
+                position: relative;
+                font-size: 0.746667rem;
+                color: #333333;
+                font-weight: 700;
+                &::before {
+                    position: absolute;
+                    content: '';
+                    top: -0.133333rem;
+                    left: -1.6rem;
+                    width: 1.013333rem;
+                    height: 1.013333rem;
+                    background: url(../images/i2.png) no-repeat center center;
+                    background-size: 0.986667rem auto;
+                }
+            }
+            .more {
+                font-size: 0.586667rem;
+                color: #999999;
+            }
+        }
+        .jobdirect_bd {
+            position: relative;
+            .swiper-container {
+                width: 14.4rem;
+                height: 100%;
+              }
+              .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+          
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                flex-direction: column;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+                transition: 300ms;
+                transform: scale(0.8);
+                opacity: .5;
+                a {
+                    width: 9.013333rem;
+                    height: 10.026667rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                p {
+                    width: 9.013333rem;
+                    margin-top: 0.64rem;
+                    font-size: 0.666667rem;
+                    color: #333333;
+                }
+              }
+              .swiper-slide-active,.swiper-slide-duplicate-active{
+                transform: scale(1);
+                z-index: 999;
+                opacity: 1;
+              }
+            .swiper-button-next,
+            .swiper-button-prev {
+                position: absolute !important;
+            }
+            .swiper-button-next {
+                right: 1.12rem !important;
+            }
+            .swiper-button-prev {
+                left: 1.12rem !important;
+            }
+        }
+    }  
+}
+.indexwrap_3 {
+    width: 100%;
+    margin: 10px 0 3.013333rem 0;
+    padding-bottom: 0.8rem;
+    background-color: #ffffff;
+    
+    // learn
+    .learn_hd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 1.92rem;
+        padding: 0 0.64rem 0  2.08rem;
+        .title {
+            position: relative;
+            font-size: 0.746667rem;
+            color: #333333;
+            font-weight: 700;
+            &::before {
+                position: absolute;
+                content: '';
+                top: -0.08rem;
+                left: -1.466667rem;
+                width: 1.013333rem;
+                height: 1.013333rem;
+                background: url(../images/i1.png) no-repeat center center;
+                background-size: 0.986667rem auto;
+            }
+        }
+        .more {
+            font-size: 0.586667rem;
+            color: #999999;
+        }
+    }
+    .learn_bd {
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+            .swiper-wrapper {
+                div {
+                    &:nth-child(1) {
+                        margin-left: 0.266667rem;
+                    }
+                }
+            }
+          }
+          .swiper-slide {
+            width: 7.733333rem;
+            height: 9.066667rem;
+            text-align: center;
+            font-size: 18px;
+            background-color: #fff ;
+            border-radius: 0.266667rem;
+            box-shadow: 0 0 0.266667rem rgba(0, 0, 0, .1);
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            a {
+                display: block;
+                width: 7.733333rem;
+                height: 9.066667rem;
+                padding-top: 0.266667rem;
+                text-align: left;
+                h4 {
+                    font-size: 0.64rem;
+                    color: black;
+                    margin: 0.533333rem 0 0.8rem 0;
+                    font-weight: 400;
+                }
+                span[class^="people_"] {
+                    font-size: 0.533333rem;
+                }
+                .people_1 {
+                    color: #ff4406;
+                }
+                .people_2 {
+                    color: #989898;
+                }
+                
+            }
+        }
+    }
+}
+// footer
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3.013333rem;
+    background-color: #ffffff;
+    border-top: 1px solid #e2e2e2;
+    z-index: 99999999999;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+            flex: 1;
+            height: 3.013333rem;
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                span[class^="pic"] {
+                    width: 1.04rem;
+                    height: 1.093333rem;
+                    margin: 0.506667rem 0 0.293333rem 0;
+                    background-size: 1.04rem auto;
+                }
+                .pic_home {
+                    background: url(../images/home.png) no-repeat center center;
+                }
+                .pic_interview {
+                    background: url(../images/net.png) no-repeat center center;
+                }
+                .pic_similatinterview {
+                    background: url(../images/ms.png) no-repeat center center;
+                }
+                .pic_self {
+                    background: url(../images/user.png) no-repeat center center;
+                }
+                
+                .word {
+                    font-size: 0.586667rem;
+                    color: #666666;
+                }
+                .wordcolor {
+                    height: 1.173333rem;
+                    background: -webkit-linear-gradient(left, #52C4F0,#2CCAC7);
+                    font-size: 0.586667rem;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;    
+                }
+            }
+        }
+    }
+}
