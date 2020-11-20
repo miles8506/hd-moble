@@ -1,0 +1,206 @@
+@import "common";
+// content
+body {
+    line-height: 1.5;
+}
+.content {
+    width: 100%;
+    background-color: #fff;
+    .title {
+        width: 100%;
+        height: 2.133333rem;
+        padding: 0.746667rem 0 0 0.933333rem;
+        color: #000000;
+        font-size: 0.8rem;
+    }
+    // content_box
+    .content_box {
+        width: 100%;
+        background-color: #fff;
+    .title_content {
+        margin: 0 0.906667rem;
+        background-color: #fff;
+        overflow: hidden;
+        p {
+            width: 100%;
+            margin-top: 0.72rem;
+            font-size: 0.746667rem;
+            color: #333333;
+        }
+        .levelbox {
+            display: flex;
+            width: 100%;
+            height: 1.2rem;
+            margin: 0.88rem 0 0.933333rem;
+            div {
+                width: 2.853333rem;
+                height: 1.2rem;
+                border: 0.026667rem solid #2dcaab;
+                border-radius: 0.266667rem;
+                background: -webkit-linear-gradient( left, #52C4F0,#2CCAC7);
+                -webkit-background-clip: text;
+                line-height: 1.146667rem;
+                text-align: center;
+                color: transparent;
+                font-size: 0.693333rem;
+            }
+            .class {
+                margin-right: 0.453333rem;
+            }
+        }
+    }
+    }
+    // answer_relize
+    .answer_relize,
+    .question_stretch {
+        width: 100%;
+        .answer_relize_hd,
+        .question_stretch_hd {
+            width: 100%;
+            height: 0.693333rem;
+            .wrap {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;    
+                width: 100%;
+                padding: 0 0.8rem;
+                i[class$="line"] {
+                    width: 7.28rem;
+                    height: 0.026667rem;
+                    background-color: #eaeaea;
+                }
+                .lfline {
+                    position: relative;
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        top: -0.08rem;
+                        right: 0;    
+                        width: 0.16rem;
+                        height: 0.16rem;
+                        border-radius: 0.16rem;
+                        background-color: #54C8E9;
+                    }
+                }
+                .rtline {
+                    position: relative;
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        top: -0.08rem;
+                        left: 0;    
+                        width: 0.16rem;
+                        height: 0.16rem;
+                        border-radius: 0.16rem;
+                        background-color: #54C8E9;
+                    }
+                }
+                h6 {
+                    height: 0.693333rem;
+                    font-size: 0.693333rem;
+                    color: #000000;
+                    font-weight: 400;
+                }
+    
+            }
+        }
+        .answer_relize_bd,
+        .question_stretch_bd {
+            width: 100%;
+            margin-top: 1.413333rem;
+            padding-bottom: 2.506667rem;
+            .wrap {
+                width: 100%;
+                padding: 0 0.8rem;
+                p {
+                    color: #666666;
+                }
+            }
+        }
+        .answer_relize_bd {
+            .wrap {
+                p {
+                    font-size: 0.586667rem;
+                }
+            }
+        }
+        .question_stretch_bd {
+            border-bottom: 0.026667rem solid #E7E7E7;
+            .wrap {
+                .stretch_1 {
+                    height: 0.693333rem;
+                    margin-bottom: 0.373333rem;
+                    font-size: 0.693333rem;
+                    color: #45C6E2;
+                }
+                p {
+                    width: 100%;
+                    font-size: 0.666667rem;
+                }
+                .extra_content {
+                    width: 100%;
+                    margin-top: 0.906667rem;
+                    padding: 1.093333rem 0.853333rem 0.693333rem 0.853333rem;
+                    background-color: #E8E8E8;
+                    font-size: 0.586667rem;
+                    overflow-wrap: break-word;                }
+            }
+        }
+    }
+    // eles 
+    .eles {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 2.533333rem;
+        margin-bottom: 3.013333rem;
+        .eles_lf {
+            .collect{
+                display: flex;
+                margin: 0 0 0 0.533333rem;
+                font-size: 0.746667rem;
+                color: #666666;
+                img {
+                    width: 0.8rem;
+                    height: 0.773333rem;
+                    margin: 0.133333rem 0.373333rem 0 0;
+                }
+                span {
+                    font-size: .746667rem;
+                }
+            }
+        }
+        .eles_rt {
+            display: flex;
+            a {
+                display: flex;
+                color: #666666;
+                margin-right: 0.533333rem;
+                &:nth-child(1) {
+                    background: -webkit-linear-gradient(left, #52C4F0,#2CCAC7);
+                    -webkit-background-clip: text;
+                    color: transparent;
+                }
+                img {
+                    width: 0.8rem;
+                    height: 0.773333rem;
+                    margin: 0.133333rem 0.16rem 0 0;
+                }
+                span {
+                    font-size: .746667rem;
+                    em {
+                        background: -webkit-linear-gradient(left, #52C4F0,#2CCAC7);
+                        -webkit-background-clip: text;
+                        color: transparent;    
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

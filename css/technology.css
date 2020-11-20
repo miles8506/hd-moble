@@ -1,0 +1,314 @@
+/* body */
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f2f4f7;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3.013333rem;
+  background-color: #ffffff;
+  border-top: 1px solid #e2e2e2;
+  z-index: 99999999999;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li {
+  flex: 1;
+  height: 3.013333rem;
+}
+.footer ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.footer ul li a span[class^="pic"] {
+  width: 1.04rem;
+  height: 1.093333rem;
+  margin: 0.506667rem 0 0.293333rem 0;
+  background-size: 1.04rem auto;
+}
+.footer ul li a .pic_home {
+  background: url(../images/home.png) no-repeat center center;
+}
+.footer ul li a .pic_interview {
+  background: url(../images/net.png) no-repeat center center;
+}
+.footer ul li a .pic_similatinterview {
+  background: url(../images/ms.png) no-repeat center center;
+}
+.footer ul li a .pic_self {
+  background: url(../images/user.png) no-repeat center center;
+}
+.footer ul li a .word {
+  font-size: 0.586667rem;
+  color: #666666;
+}
+.footer ul li a .wordcolor {
+  height: 1.173333rem;
+  background: -webkit-linear-gradient(left, #52C4F0, #2CCAC7);
+  font-size: 0.586667rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+em {
+  font-style: normal;
+}
+/* // header */
+.indexheader {
+  width: 100%;
+  height: 2.133333rem;
+  text-align: center;
+  line-height: 2.133333rem;
+  font-size: 0.933333rem;
+  border-bottom: 1px solid #eaeaea;
+  color: #1c1c1c;
+  background: #ffffff;
+}
+body {
+  line-height: 1.5;
+}
+.content {
+  width: 100%;
+  background-color: #fff;
+}
+.content .title {
+  width: 100%;
+  height: 2.133333rem;
+  padding: 0.746667rem 0 0 0.933333rem;
+  color: #000000;
+  font-size: 0.8rem;
+}
+.content .content_box {
+  width: 100%;
+  background-color: #fff;
+}
+.content .content_box .title_content {
+  margin: 0 0.906667rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+.content .content_box .title_content p {
+  width: 100%;
+  margin-top: 0.72rem;
+  font-size: 0.746667rem;
+  color: #333333;
+}
+.content .content_box .title_content .levelbox {
+  display: flex;
+  width: 100%;
+  height: 1.2rem;
+  margin: 0.88rem 0 0.933333rem;
+}
+.content .content_box .title_content .levelbox div {
+  width: 2.853333rem;
+  height: 1.2rem;
+  border: 0.026667rem solid #2dcaab;
+  border-radius: 0.266667rem;
+  background: -webkit-linear-gradient(left, #52C4F0, #2CCAC7);
+  -webkit-background-clip: text;
+  line-height: 1.146667rem;
+  text-align: center;
+  color: transparent;
+  font-size: 0.693333rem;
+}
+.content .content_box .title_content .levelbox .class {
+  margin-right: 0.453333rem;
+}
+.content .answer_relize,
+.content .question_stretch {
+  width: 100%;
+}
+.content .answer_relize .answer_relize_hd,
+.content .question_stretch .answer_relize_hd,
+.content .answer_relize .question_stretch_hd,
+.content .question_stretch .question_stretch_hd {
+  width: 100%;
+  height: 0.693333rem;
+}
+.content .answer_relize .answer_relize_hd .wrap,
+.content .question_stretch .answer_relize_hd .wrap,
+.content .answer_relize .question_stretch_hd .wrap,
+.content .question_stretch .question_stretch_hd .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 0.8rem;
+}
+.content .answer_relize .answer_relize_hd .wrap i[class$="line"],
+.content .question_stretch .answer_relize_hd .wrap i[class$="line"],
+.content .answer_relize .question_stretch_hd .wrap i[class$="line"],
+.content .question_stretch .question_stretch_hd .wrap i[class$="line"] {
+  width: 7.28rem;
+  height: 0.026667rem;
+  background-color: #eaeaea;
+}
+.content .answer_relize .answer_relize_hd .wrap .lfline,
+.content .question_stretch .answer_relize_hd .wrap .lfline,
+.content .answer_relize .question_stretch_hd .wrap .lfline,
+.content .question_stretch .question_stretch_hd .wrap .lfline {
+  position: relative;
+}
+.content .answer_relize .answer_relize_hd .wrap .lfline::after,
+.content .question_stretch .answer_relize_hd .wrap .lfline::after,
+.content .answer_relize .question_stretch_hd .wrap .lfline::after,
+.content .question_stretch .question_stretch_hd .wrap .lfline::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -0.08rem;
+  right: 0;
+  width: 0.16rem;
+  height: 0.16rem;
+  border-radius: 0.16rem;
+  background-color: #54C8E9;
+}
+.content .answer_relize .answer_relize_hd .wrap .rtline,
+.content .question_stretch .answer_relize_hd .wrap .rtline,
+.content .answer_relize .question_stretch_hd .wrap .rtline,
+.content .question_stretch .question_stretch_hd .wrap .rtline {
+  position: relative;
+}
+.content .answer_relize .answer_relize_hd .wrap .rtline::after,
+.content .question_stretch .answer_relize_hd .wrap .rtline::after,
+.content .answer_relize .question_stretch_hd .wrap .rtline::after,
+.content .question_stretch .question_stretch_hd .wrap .rtline::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -0.08rem;
+  left: 0;
+  width: 0.16rem;
+  height: 0.16rem;
+  border-radius: 0.16rem;
+  background-color: #54C8E9;
+}
+.content .answer_relize .answer_relize_hd .wrap h6,
+.content .question_stretch .answer_relize_hd .wrap h6,
+.content .answer_relize .question_stretch_hd .wrap h6,
+.content .question_stretch .question_stretch_hd .wrap h6 {
+  height: 0.693333rem;
+  font-size: 0.693333rem;
+  color: #000000;
+  font-weight: 400;
+}
+.content .answer_relize .answer_relize_bd,
+.content .question_stretch .answer_relize_bd,
+.content .answer_relize .question_stretch_bd,
+.content .question_stretch .question_stretch_bd {
+  width: 100%;
+  margin-top: 1.413333rem;
+  padding-bottom: 2.506667rem;
+}
+.content .answer_relize .answer_relize_bd .wrap,
+.content .question_stretch .answer_relize_bd .wrap,
+.content .answer_relize .question_stretch_bd .wrap,
+.content .question_stretch .question_stretch_bd .wrap {
+  width: 100%;
+  padding: 0 0.8rem;
+}
+.content .answer_relize .answer_relize_bd .wrap p,
+.content .question_stretch .answer_relize_bd .wrap p,
+.content .answer_relize .question_stretch_bd .wrap p,
+.content .question_stretch .question_stretch_bd .wrap p {
+  color: #666666;
+}
+.content .answer_relize .answer_relize_bd .wrap p,
+.content .question_stretch .answer_relize_bd .wrap p {
+  font-size: 0.586667rem;
+}
+.content .answer_relize .question_stretch_bd,
+.content .question_stretch .question_stretch_bd {
+  border-bottom: 0.026667rem solid #E7E7E7;
+}
+.content .answer_relize .question_stretch_bd .wrap .stretch_1,
+.content .question_stretch .question_stretch_bd .wrap .stretch_1 {
+  height: 0.693333rem;
+  margin-bottom: 0.373333rem;
+  font-size: 0.693333rem;
+  color: #45C6E2;
+}
+.content .answer_relize .question_stretch_bd .wrap p,
+.content .question_stretch .question_stretch_bd .wrap p {
+  width: 100%;
+  font-size: 0.666667rem;
+}
+.content .answer_relize .question_stretch_bd .wrap .extra_content,
+.content .question_stretch .question_stretch_bd .wrap .extra_content {
+  width: 100%;
+  margin-top: 0.906667rem;
+  padding: 1.093333rem 0.853333rem 0.693333rem 0.853333rem;
+  background-color: #E8E8E8;
+  font-size: 0.586667rem;
+  overflow-wrap: break-word;
+}
+.content .eles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 2.533333rem;
+  margin-bottom: 3.013333rem;
+}
+.content .eles .eles_lf .collect {
+  display: flex;
+  margin: 0 0 0 0.533333rem;
+  font-size: 0.746667rem;
+  color: #666666;
+}
+.content .eles .eles_lf .collect img {
+  width: 0.8rem;
+  height: 0.773333rem;
+  margin: 0.133333rem 0.373333rem 0 0;
+}
+.content .eles .eles_lf .collect span {
+  font-size: 0.746667rem;
+}
+.content .eles .eles_rt {
+  display: flex;
+}
+.content .eles .eles_rt a {
+  display: flex;
+  color: #666666;
+  margin-right: 0.533333rem;
+}
+.content .eles .eles_rt a:nth-child(1) {
+  background: -webkit-linear-gradient(left, #52C4F0, #2CCAC7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.content .eles .eles_rt a img {
+  width: 0.8rem;
+  height: 0.773333rem;
+  margin: 0.133333rem 0.16rem 0 0;
+}
+.content .eles .eles_rt a span {
+  font-size: 0.746667rem;
+}
+.content .eles .eles_rt a span em {
+  background: -webkit-linear-gradient(left, #52C4F0, #2CCAC7);
+  -webkit-background-clip: text;
+  color: transparent;
+}

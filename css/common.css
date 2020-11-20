@@ -72,6 +72,9 @@ body {
 a {
   text-decoration: none;
 }
+em {
+  font-style: normal;
+}
 /* // header */
 .indexheader {
   width: 100%;
